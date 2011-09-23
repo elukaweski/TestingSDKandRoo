@@ -1,0 +1,12 @@
+// Spring Roo 1.2.0.M1 [rev f27ddd6] log opened at 2011-09-23 09:23:38
+hint
+project --topLevelPackage com.serjann.force
+jpa setup --provider DATANUCLEUS_2 --database DATABASE_DOT_COM --userName devel@mechanics-inc.com --password amsse1237DSEkH2IV6ZWtAFW6o9p2FIc
+entity --class ~.domain.Mech --testAutomatically 
+field string --fieldName dessc1 --notNull --sizeMin 3 --sizeMax 50
+field string --fieldName dessc2 --notNull --sizeMin 3 --sizeMax 50
+exit
+// Spring Roo 1.2.0.M1 [rev f27ddd6] log closed at 2011-09-23 09:29:08
+// Spring Roo 1.2.0.M1 [rev f27ddd6] log opened at 2011-09-23 09:41:31
+help
+logging setup --level DEBUG 
